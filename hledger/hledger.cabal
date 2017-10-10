@@ -145,6 +145,7 @@ library
       Hledger.Cli.Commands.Rewrite
       Hledger.Cli.Commands.Stats
       Hledger.Cli.Commands.Tags
+      Hledger.Cli.Commands.Teste
       Hledger.Cli.CompoundBalanceCommand
       Text.Tabular.AsciiWide
   other-modules:

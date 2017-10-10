@@ -32,6 +32,7 @@ module Hledger.Cli.Commands (
   ,module Hledger.Cli.Commands.Rewrite
   ,module Hledger.Cli.Commands.Stats
   ,module Hledger.Cli.Commands.Tags
+  ,module Hledger.Cli.Commands.Teste
 ) 
 where
 
@@ -71,6 +72,7 @@ import Hledger.Cli.Commands.Registermatch
 import Hledger.Cli.Commands.Rewrite
 import Hledger.Cli.Commands.Stats
 import Hledger.Cli.Commands.Tags
+import Hledger.Cli.Commands.Teste
 
 
 -- | The cmdargs subcommand mode and IO action for each builtin command.
@@ -99,6 +101,7 @@ builtinCommands = [
   ,(statsmode              , stats)
   ,(tagsmode               , tags)
   ,(testmode               , testcmd)
+  ,(testemode              , teste)
   ]
 
 -- | All names and aliases of builtin commands.
